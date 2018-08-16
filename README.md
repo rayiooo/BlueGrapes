@@ -1,5 +1,5 @@
 ﻿# BlueGrapes
-typecho 蓝葡萄主题
+typecho 蓝葡萄主题，forked from [绿葡萄主题](https://github.com/hongweipeng/GreenGrapes)
 
 ![image](https://github.com/rayiooo/GreenGrapes/blob/master/screenshot.png)
 

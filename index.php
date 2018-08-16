@@ -1,11 +1,11 @@
 <?php
 /**
- * 绿葡萄的主题, 一款有科技感颗粒，自定义头像的， 好看的标签云的响应式模板。
+ * 蓝葡萄的主题, 一款有科技感颗粒，自定义头像的， 好看的标签云的响应式模板。
  *
- * @package GreenGrapes
- * @author hongweipeng
- * @version 1.0.2
- * @link https://github.com/hongweipeng/GreenGrapes
+ * @package BlueGrapes
+ * @author hongweipeng/rayiooo
+ * @version 1.0.3
+ * @link https://github.com/rayiooo/BlueGrapes
  */
 $this->need('header.php');
 ?>
