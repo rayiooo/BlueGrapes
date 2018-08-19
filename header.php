@@ -43,20 +43,20 @@
     </div>
     <div id="header-canvas" style="width: 100%;height: 100%"></div>
 </header>
-<div id="m-nav" class="m-nav">
+<div id="m-nav" class="m-nav" style="height: 58px;">
     <div class="m-nav-all">
         <div class="m-logo-url">
             <img src="<?php $this->options->headerIcon(); ?>">
             <h3><?php $this->options->sideName(); ?></h3>
         </div>
         <?php $this->widget('Widget_Contents_Page_List')->to($pages); ?>
-        <ul class="nav">
+        <ul class="nav" style="font-size: 18px;">
             <li <?php if($this->is('index')): ?> class="active"<?php endif; ?>>
-                <a href="<?php $this->options->siteUrl(); ?>"><?php _e('首页'); ?></a>
+                <a href="<?php $this->options->siteUrl(); ?>">&nbsp;&nbsp;<?php _e('首页'); ?>&nbsp;&nbsp;</a>
             </li>
             <?php while($pages->next()): ?>
                 <li <?php if($this->is('page', $pages->slug)): ?> class="active"<?php endif; ?>>
-                    <a href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
+                    <a href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>">&nbsp;&nbsp;<?php $pages->title(); ?>&nbsp;&nbsp;</a>
                 </li>
             <?php endwhile; ?>
         </ul>

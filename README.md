@@ -13,6 +13,10 @@ typecho 蓝葡萄主题，forked from [绿葡萄主题](https://github.com/hongw
 ## 主题安装
 在typecho/usr/theme目录下右击执行git Bash指令`git clone https://github.com/rayiooo/BlueGrapes.git`，将项目克隆到本地。
 
+## 插件依赖
+> * Smilies（为博客添加图片表情功能 (初版:willin kan/正文功能:LT21)）
+> * Views（Typecho 版 PostViews）
+
 ## Todo
 - [ ] 侧边栏项目可选是否显示
 - [ ] 主题配色扩充
