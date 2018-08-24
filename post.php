@@ -4,7 +4,9 @@
         <div id="article-list">
             <article class="post-article clearfix">
                 <div>
+                    <!-- google_ad_section_start -->
                     <h2 class="title"><a href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h2>
+                    <!-- google_ad_section_end -->
                     <p class="post-big-info">
                         <span class="label label-green"><i class="fa fa-user"></i> <a href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a></span>
                         <span class="label label-green"><i class="fa fa-tags"></i> <?php $this->category(','); ?></span>

@@ -8,6 +8,15 @@
 <?php else: ?>
 <div id="comments">
     <div class="comments-block">
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-6158748806877982",
+            enable_page_level_ads: true
+          });
+        </script>
+    </div>
+    <div class="comments-block">
         <p class="ui <?php $this->options->singleColor() ?> ribbon label comments"><?php $this->commentsNum(_t('还不快抢沙发'), _t('只有地板了'), _t('<span class="comment-highlight">%d</span> 条评论')); ?></p>
         <?php $comments->listComments(); ?>
 
