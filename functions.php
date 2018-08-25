@@ -109,6 +109,7 @@ echo $commentClass;
 
 /*
  * 获取浏览次数(改进版)
+ * 出处：Ryan（https://blog.iplayloli.com/4341.html?tdsourcetag=s_pctim_aiomsg）
  */
 function getViewsStr($widget, $format = "{views} 次浏览") {
     $fields = unserialize($widget->fields);
