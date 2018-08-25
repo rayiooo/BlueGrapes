@@ -1,5 +1,5 @@
 ﻿# BlueGrapes
-typecho 蓝葡萄主题，forked from [绿葡萄主题](https://github.com/hongweipeng/GreenGrapes)
+typecho 蓝葡萄主题，在[绿葡萄主题](https://github.com/hongweipeng/GreenGrapes)的基础上二次开发。
 
 ![image](https://github.com/rayiooo/GreenGrapes/blob/master/screenshot.png)
 
@@ -15,7 +15,6 @@ typecho 蓝葡萄主题，forked from [绿葡萄主题](https://github.com/hongw
 
 ## 插件依赖
 > * Smilies（为博客添加图片表情功能 (初版:willin kan/正文功能:LT21)）
-> * Views（Typecho 版 PostViews）
 
 ## Todo
 - [ ] 侧边栏项目可选是否显示

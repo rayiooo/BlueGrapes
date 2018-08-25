@@ -11,7 +11,7 @@
                         <span class="label label-green"><i class="fa fa-user"></i> <a href="<?php $this->author->permalink(); ?>" rel="author"><?php $this->author(); ?></a></span>
                         <span class="label label-green"><i class="fa fa-tags"></i> <?php $this->category(','); ?></span>
                         <span class="label label-green"><i class="fa fa-calendar"></i> <?php $this->date('Y-m-d'); ?></span>
-                        <span class="label label-green"><i class="fa fa-eye"></i> <?php Views_Plugin::theViews(); ?></span>
+                        <span class="label label-green"><i class="fa fa-eye"></i> <?php _e(getViewsStr($this)); /* $this 是 Widget_Archive 对象 */ ?></span>
                     </p>
                 </div>
                 <div class="article-content clearfix">
