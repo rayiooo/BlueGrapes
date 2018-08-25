@@ -29,6 +29,14 @@
     </style>
     <?php endif; ?>
     <?php $this->header(); ?>
+	<!-- 谷歌广告 -->
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+	<script>
+	  (adsbygoogle = window.adsbygoogle || []).push({
+	    google_ad_client: "ca-pub-6158748806877982",
+	    enable_page_level_ads: true
+	  });
+	</script>
 </head>
 <body>
 <header id="l-header" class="l-header" style="background-image:url(<?php $this->options->bgImg(); ?>">
