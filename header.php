@@ -29,14 +29,14 @@
     </style>
     <?php endif; ?>
     <?php $this->header(); ?>
-	<!-- 谷歌广告 -->
+    <!-- 谷歌广告 -->
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<script>
-	  (adsbygoogle = window.adsbygoogle || []).push({
-	    google_ad_client: "ca-pub-6158748806877982",
-	    enable_page_level_ads: true
-	  });
-	</script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-6158748806877982",
+        enable_page_level_ads: true
+      });
+    </script>
 </head>
 <body>
 <header id="l-header" class="l-header" style="background-image:url(<?php $this->options->bgImg(); ?>">
@@ -51,7 +51,7 @@
     </div>
     <div id="header-canvas" style="width: 100%;height: 100%"></div>
 </header>
-<div id="m-nav" class="m-nav" style="height: 58px;">
+<div id="m-nav" class="m-nav" style="height: 58px; width: 100%; z-index: 1;">
     <div class="m-nav-all">
         <div class="m-logo-url">
             <img src="<?php $this->options->headerIcon(); ?>">

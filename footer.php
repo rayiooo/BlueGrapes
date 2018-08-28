@@ -28,9 +28,13 @@
 <script src = "<?php $this->options->themeUrl('js/headerCanvas.js'); ?>"></script>
 <script src = "<?php $this->options->themeUrl('js/home.js'); ?>"></script>
 <!-- 打字炫酷效果 -->
-<script type="text/javascript" src="<?php $this->options->themeUrl('js/commentTyping.js'); ?>"></script>
+<script src="<?php $this->options->themeUrl('js/commentTyping.js'); ?>"></script>
 <!-- 鼠标点击特效 -->
-<script type="text/javascript" src="<?php $this->options->themeUrl('js/mouseClick.js')?>"></script>
+<script src="<?php $this->options->themeUrl('js/mouseClick.js')?>"></script>
+<!-- 固定导航栏的东西 -->
+<script src="<?php $this->options->themeUrl('js/stickUp.min.js')?>"></script>
+<script type="text/javascript"> jQuery(function($) { $(document).ready( function() { $('.m-nav').stickUp(); }); }); </script>
+<!-- 结束引入 -->
 <?php $this->footer(); ?>
 </body>
 </html>

@@ -98,12 +98,31 @@ $(document).ready(function () {
 		$window.scroll(function() {
 			if ($window.scrollTop() > offset.top) {
 				var widths=$sidebar.width();
-				$fixside.stop().animate({top:'20px'});
+				$fixside.stop().animate({top:'80px'});  /*原20px*/
 				$fixside.addClass('fix').css("width",widths);
 			} else {
-				$fixside.stop().animate({top:'1px'});
+				$fixside.stop().animate({top:'1px'});  /*原1px*/
 				$fixside.removeClass('fix');
 			}
 		});
 	}
+
+	//导航栏固定
+	/*    $sidebar = $("#fixed");
+		$fixside = $('.m-nav');
+		$window = $(window);
+		offset = $sidebar.offset();
+		widths=$sidebar.width();
+	if($window.width() > 1080){
+		$window.scroll(function() {
+			if ($window.scrollTop() > offset.top) {
+				var widths=$sidebar.width();
+				$fixside.stop().animate({top:'80px'});
+				$fixside.addClass('fix').css("width",widths);
+			} else {
+				$fixside.stop().animate({top:'61px'});
+				$fixside.removeClass('fix');
+			}
+		});
+	}*/
 });
