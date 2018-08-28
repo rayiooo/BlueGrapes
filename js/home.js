@@ -96,7 +96,8 @@ $(document).ready(function () {
 		widths=$sidebar.width();
 	if($window.width() > 768){
 		$window.scroll(function() {
-			if ($window.scrollTop() > offset.top) {
+			if ($window.scrollTop() + 60 > offset.top) {
+				//alert($window.scrollTop()+', '+offset.top)
 				var widths=$sidebar.width();
 				$fixside.stop().animate({top:'80px'});  /*原20px*/
 				$fixside.addClass('fix').css("width",widths);
@@ -106,23 +107,4 @@ $(document).ready(function () {
 			}
 		});
 	}
-
-	//导航栏固定
-	/*    $sidebar = $("#fixed");
-		$fixside = $('.m-nav');
-		$window = $(window);
-		offset = $sidebar.offset();
-		widths=$sidebar.width();
-	if($window.width() > 1080){
-		$window.scroll(function() {
-			if ($window.scrollTop() > offset.top) {
-				var widths=$sidebar.width();
-				$fixside.stop().animate({top:'80px'});
-				$fixside.addClass('fix').css("width",widths);
-			} else {
-				$fixside.stop().animate({top:'61px'});
-				$fixside.removeClass('fix');
-			}
-		});
-	}*/
 });

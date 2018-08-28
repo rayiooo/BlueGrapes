@@ -51,6 +51,7 @@
     </div>
     <div id="header-canvas" style="width: 100%;height: 100%"></div>
 </header>
+<div style="height: 58px; width: 100%;">
 <div id="m-nav" class="m-nav" style="height: 58px; width: 100%; z-index: 1;">
     <div class="m-nav-all">
         <div class="m-logo-url">
@@ -69,6 +70,7 @@
             <?php endwhile; ?>
         </ul>
     </div>
+</div>
 </div>
 <form role="search" method="get" id="search-form" action="./">
     <div class="search-form">
