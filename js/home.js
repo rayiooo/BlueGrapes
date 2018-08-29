@@ -97,7 +97,6 @@ $(document).ready(function () {
 	if($window.width() > 768){
 		$window.scroll(function() {
 			if ($window.scrollTop() + 60 > offset.top) {
-				//alert($window.scrollTop()+', '+offset.top)
 				var widths=$sidebar.width();
 				$fixside.stop().animate({top:'80px'});  /*原20px*/
 				$fixside.addClass('fix').css("width",widths);
