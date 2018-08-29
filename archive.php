@@ -21,7 +21,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-md-12 article-content">
-                                    <?php $this->excerpt(300, '...'); ?>
+                                    <?php $this->content(''); ?>
                                 </div>
                             </div>
                             <hr>
