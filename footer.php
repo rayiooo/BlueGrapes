@@ -30,10 +30,12 @@
 <!-- 打字炫酷效果 -->
 <script src="<?php $this->options->themeUrl('js/commentTyping.js'); ?>"></script>
 <!-- 鼠标点击特效 -->
-<script src="<?php $this->options->themeUrl('js/mouseClick.js')?>"></script>
+<script src="<?php $this->options->themeUrl('js/mouseClick.js'); ?>"></script>
 <!-- 固定导航栏的东西 -->
-<script src="<?php $this->options->themeUrl('js/stickUp.min.js')?>"></script>
+<script src="<?php $this->options->themeUrl('js/stickUp.min.js'); ?>"></script>
 <script type="text/javascript"> jQuery(function($) { $(document).ready( function() { $('.m-nav').stickUp(); }); }); </script>
+<!-- 百度自动收集网页js -->
+<script src="<?php $this->options->themeUrl('js/baidu_js_push.js'); ?>"></script>
 <!-- 结束引入 -->
 <?php $this->footer(); ?>
 </body>
